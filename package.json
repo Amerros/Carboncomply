@@ -1,0 +1,27 @@
+{
+  "name": "carboncomply-enterprise",
+  "version": "1.0.0",
+  "description": "Enterprise CO2 Reporting SaaS Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup-db": "node scripts/setup-database.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "stripe": "^12.0.0",
+    "sqlite3": "^5.1.6",
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0",
+    "helmet": "^6.1.0",
+    "express-rate-limit": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
